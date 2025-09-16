@@ -1,7 +1,7 @@
 # CZBIO-Interview
 ![Sphericity visualization](visualizations/volume_anim.gif)
 
-This repo contains the code for the technical interview. The questions are answered in [this notebook](technical-interview.ipynb). For now [the cellpose colab](run_Cellpose-SAM.ipynb) is not cleaned up. 
+This repo contains the code for the technical interview. The questions are answered in [this notebook](technical-interview.ipynb). For now [the cellpose colab](run_Cellpose-SAM.ipynb) is not cleaned up. Please let me know if anything is unclear.
 
 ## Todo
 - [ ] requirements.txt
