@@ -1,0 +1,139 @@
+=== OME-Zarr Metadata Summary ===
+
+Axes:
+T   | type: time    | unit: second
+C   | type: channel | unit: None
+Z   | type: space   | unit: micrometer
+Y   | type: space   | unit: micrometer
+X   | type: space   | unit: micrometer
+
+Shape: (10, 1, 78, 1500, 1600)
+Chunks: (1, 1, 78, 1500, 1600)
+Voxel size (TCZYX): [1.0, 1.0, 1.24, 0.439, 0.439]
+
+Channels:
+image
+
+Channel details:
+Label: image, Color: FFFFFF, Active: True, Coefficient: 1.0
+
+--- NGFF Metadata ---
+{
+  "multiscales": [
+    {
+      "version": "0.4",
+      "axes": [
+        {
+          "name": "T",
+          "type": "time",
+          "unit": "second"
+        },
+        {
+          "name": "C",
+          "type": "channel"
+        },
+        {
+          "name": "Z",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "Y",
+          "type": "space",
+          "unit": "micrometer"
+        },
+        {
+          "name": "X",
+          "type": "space",
+          "unit": "micrometer"
+        }
+      ],
+      "datasets": [
+        {
+          "path": "0",
+          "coordinate_transformations": [
+            {
+              "type": "scale",
+              "translation": null,
+              "scale": [
+                1.0,
+                1.0,
+                1.24,
+                0.439,
+                0.439
+              ],
+              "path": null
+            }
+          ]
+        }
+      ],
+      "name": "0",
+      "coordinate_transformations": [
+        {
+          "type": "identity",
+          "translation": null,
+          "scale": null,
+          "path": null
+        }
+      ],
+      "type": null,
+      "metadata": null
+    }
+  ],
+  "omero": {
+    "version": "0.4",
+    "id": 0,
+    "name": "",
+    "channels": [
+      {
+        "active": true,
+        "coefficient": 1.0,
+        "color": "FFFFFF",
+        "family": "linear",
+        "inverted": false,
+        "label": "image",
+        "window": {
+          "start": 0.0,
+          "end": 65535.0,
+          "min": 0.0,
+          "max": 65535.0
+        }
+      }
+    ],
+    "rdefs": {
+      "default_t": 0,
+      "default_z": 0,
+      "model": "color",
+      "projection": "normal"
+    }
+  }
+}
+
+--- OMERO Metadata ---
+{
+  "version": "0.4",
+  "id": 0,
+  "name": "",
+  "channels": [
+    {
+      "active": true,
+      "coefficient": 1.0,
+      "color": "FFFFFF",
+      "family": "linear",
+      "inverted": false,
+      "label": "image",
+      "window": {
+        "start": 0.0,
+        "end": 65535.0,
+        "min": 0.0,
+        "max": 65535.0
+      }
+    }
+  ],
+  "rdefs": {
+    "default_t": 0,
+    "default_z": 0,
+    "model": "color",
+    "projection": "normal"
+  }
+}
